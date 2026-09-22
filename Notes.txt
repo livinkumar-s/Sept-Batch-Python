@@ -1,0 +1,39 @@
+Python 
+-----------
+>> It is high-level, interpretted programming language.
+
+Human Written(Readable(print, input.....))
+|
+|(Compilation)
+|
+Byte code(common) 0100111..
+|
+|(Interpretation)
+|
+Machine Code
+
+IDE --> Integrated Dev Env.
+
+Python file --> Python Code
+Command to Execute Python File --> python filename.py
+
+Print 
+---------
+>> It shows a data in the output.
+Ex: print(data)
+
+Syntax 
+-------
+>> grammer of python.
+>> Python is case-sensitive.(a is not A)
+>> Indentation is must.(it is a whitespace given before lines of code to define a block of code.)
+
+Comment 
+--------
+>> Comments are ignored by python.
+Single line comments --> #
+Multi line comments --> ''' '''
+
+>> It increases readability
+>> Using this you can temporarily disable a code snippet.
+In VS Code --> ctrl+/
