@@ -22,6 +22,12 @@ Print
 >> It shows a data in the output.
 Ex: print(data)
 
+Input 
+------
+>> It prompts data from user.
+>> It always returs a string.
+Ex: input(ExpStr)
+
 Syntax 
 -------
 >> grammer of python.
@@ -37,3 +43,45 @@ Multi line comments --> ''' '''
 >> It increases readability
 >> Using this you can temporarily disable a code snippet.
 In VS Code --> ctrl+/
+
+Variables 
+----------
+>> Named container that stores a data.
+Ex: varName=data
+
+Naming Rules 
+--------------
+>> can contain letters, numbers and _
+>> cannot start with numbers
+>> no reserved keywords
+
+Datatypes 
+-------------
+to check datatye of an object --> type(obj)
+
+Integer --> Whole Numbers (-1,-2,0,2,1,11)
+Float --> Decimals (0.1,-3.14.....)
+
+String ---> Sequence Of Chars. '', ""
+Concatination --> "Hello"+"Hi" --> "HelloHi"
+
+Boolean --> True/False
+
+Type Casting 
+---------------
+int(obj)
+float(obj)
+str(obj)
+bool(obj)
+
+Operators 
+-----------
+>> These are symbols or keywords perform an operation on values.
+
+Arithmetic 
+Comparison
+Logical 
+Assignment
+Bitwise 
+Identity
+Membership
