@@ -126,6 +126,22 @@ x-or --> ^ (same --> 0, not same --> 1)
 >> --> right shift. moves bits towards right
 << --> left shift 
 
+2's comp --> 1's comp + 1
+
+Bin add 
+----------
+00 --> 0 
+10, 01 --> 1
+11 --> 10
+111 --> 11
+
 
 Identity
 Membership
+
+1011100
+0000001
+-----------
+100011(35) (f+)
+1011101 (-35) (f-)
+-64+16+8+4+1 --> 35
