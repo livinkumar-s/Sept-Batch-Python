@@ -79,9 +79,53 @@ Operators
 >> These are symbols or keywords perform an operation on values.
 
 Arithmetic 
-Comparison
-Logical 
+-----------
+Add --> +
+Sub --> -
+Mul --> *
+Div --> /
+Floor div --> //
+Modulus --> % (Reminder)
+Exponentiation --> **
+
+BODMAS
+
+Comparison (Boolean)
+-----------
+==
+!=
+>
+<
+>=
+<=
+
+Logical Boolean --> Boolean 
+-------
+and --> True --> Both are True. False --> Otherwise
+or --> False --> Both are False. True --> Otherwise
+not --> inverts a bool
+
+
 Assignment
+-----------
+= assign
++= add and assign
+-= 
+*=
+/=
+//=
+%=
+**=
+
 Bitwise 
+---------
+& --> and 
+| --> or
+not --> ~ ~n=-(n+1)
+x-or --> ^ (same --> 0, not same --> 1)
+>> --> right shift. moves bits towards right
+<< --> left shift 
+
+
 Identity
 Membership
