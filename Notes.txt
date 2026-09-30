@@ -139,9 +139,45 @@ Bin add
 Identity
 Membership
 
-1011100
-0000001
------------
-100011(35) (f+)
-1011101 (-35) (f-)
--64+16+8+4+1 --> 35
+
+Control Flow 
+------------
+>> Conditional clause
+>> Loops
+
+Conditional Clause 
+---------------------
+>> It determines the order in which python executes the code.
+
+if 
+--
+syntax:
+--------
+if cond:
+    block of code
+
+True --> it executes the block. False --> won't execute
+
+elif:
+------
+Syntax 
+-------
+elif cond:
+    block of code
+
+True --> it executes the block. False --> won't execute
+
+else:
+-----
+syntax:
+--------
+else:
+    block of code
+False --> execute the block. True --> won't
+
+Nested If 
+------------
+if cond1:
+    if cond2:
+        block of code
+
