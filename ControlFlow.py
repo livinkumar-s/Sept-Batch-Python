@@ -58,8 +58,8 @@
 #     else:
 #         print("Small")
 
-type="savings"
-balance=1000
+# type="savings"
+# balance=1000
 
 #t=s, b>1000 --> Eligible for loan
 # --> Not Eligible for loan
@@ -76,3 +76,88 @@ balance=1000
 #     print("Eligible for loan")
 # else:
 #     print("Not Eligible for loan")
+
+# Loops 
+
+#5 times
+
+# i=0
+
+# while i>5:
+#     print("Step1")
+#     print("Step2")
+#     print("Step3")
+#     print("Step4")
+#     print("Step5")
+#     print("-----------")
+#     i-=1
+
+# no of execution --> 0
+# i = 
+
+# a=[23,34,54,123,321]
+# print(a)
+
+# a={23,32,45,54,67,76}
+
+# for i in a:
+#     print(i)
+
+# no of iteration --> 
+
+# print(len(a))
+
+# for i in range(100):
+#     print("Leo")
+
+# a=range(11,20,3)
+
+# print(list(a))
+
+# for i in range(1,101):
+#      print(i)
+ 
+# i=1
+# while i<=101:
+#     print(i)
+#     i+=1
+
+# for i in range(100):
+#     print("Leo")
+
+
+# lis1=[1,2,3,4,54,3,2]
+
+# for i in lis1:
+#     print(i*2)
+
+
+# i=1
+
+# while i<=100:
+#     if i<50:
+#         break
+#     print(i)
+#     i+=1
+
+# numbers --> 
+
+# for i in range(100):
+#     if i==30:
+#         continue
+#     print(i)
+
+# numbers --> 1-29
+# iteration --> 30
+
+
+# i=1
+# while i<=100:
+#     if i==50:
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
+# Numbers --> 
+# no of iteration --> 

@@ -140,6 +140,19 @@ Identity
 Membership
 
 
+iterables
+-----------
+len(iter) --> length of that object
+
+>> an object that you can loop over. it can return its members 1 by 1.
+Ex: String, List, Tuple, Set, Dict, Range..
+
+Sequence 
+----------
+>> Ordered Collection of data.
+>> indexed and ordered
+Ex: String, List, Tuple, Range...
+
 Control Flow 
 ------------
 >> Conditional clause
@@ -181,3 +194,46 @@ if cond1:
     if cond2:
         block of code
 
+Loops 
+------
+>> Repeat a block of code. 
+
+While --> condition based loop
+For --> Sequence based loop
+
+While Loop (no of iteration is not known)
+------------
+Syntax 
+----------
+while condition:
+    block of code
+
+as long as the condition is True it will execute the block over and over again.
+
+For Loop (no of iteration is known (for+range))(iterate over an iterable)
+-----------
+Syntax 
+-------
+for varName in itelable/seq:
+    block of code
+
+range
+-------
+>> to create sequence of whole numbers.
+range(len) --> range(4) --> 0,1,2,3
+range(start,end) --> range(3,10) --> 3,4,5,6,7,8,9
+range(start,stop,step) --> range(4,20,2) --> 4,6,8,10,12,14,16,18
+
+Control Statements of Loops 
+-------------------------------
+break --> stop the loop
+continue --> skip the currents iteration
+
+Nested Loops 
+------------
+loop1:
+    loop2
+
+if i==30:
+    break
+print(i)
