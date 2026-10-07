@@ -62,7 +62,9 @@ to check datatye of an object --> type(obj)
 Integer --> Whole Numbers (-1,-2,0,2,1,11)
 Float --> Decimals (0.1,-3.14.....)
 
-String ---> Sequence Of Chars. '', ""
+String ---> Sequence Of Chars. '', "".
+>> Immutable.
+
 Concatination --> "Hello"+"Hi" --> "HelloHi"
 
 Boolean --> True/False
@@ -153,6 +155,13 @@ Sequence
 >> indexed and ordered
 Ex: String, List, Tuple, Range...
 
+Indexing and Slicing 
+-----------------------
+>> index number starts with 0.
+Negative indexing starts with -1.
+a1="Hello" var[ind] --> a1[-2]
+
+
 Control Flow 
 ------------
 >> Conditional clause
@@ -231,9 +240,60 @@ continue --> skip the currents iteration
 
 Nested Loops 
 ------------
+>> Loop inside another loop
 loop1:
     loop2
 
-if i==30:
-    break
-print(i)
+Data Structures 
+--------------------
+>> It is a way of organizing and storing data.
+
+List 
+----
+>> [v1,v2,v3.....]
+>> Ordered/Indexed 
+>> Mutable
+>> Allows Duplicate
+
+In built methods of List 
+--------------------------
+.append(ele)
+.insert(pos,ele)
+.extend(iterable) --> mul ele at the end
+
+.remove(ele) #first occur
+.pop(ind)
+.pop()
+
+.index(ele)
+.count(ele)
+
+.reverse()
+.sort()
+
+Tuple 
+--------
+>>(v1,v2.....)
+>> Ordered/Indexed.
+>> Allows Duplicate.
+>> Immutable.
+
+Inbuilt methods 
+---------------
+.index(ele)
+.count(ele)
+
+Unpacking (List, Tuple)
+-------------------------
+person1=("Hendry",28,True)
+name=person1[0]
+age=person1[1]
+iosMarried=person1[2]
+
+name,age,isMarried=person1
+
+Set 
+---
+
+Dict
+-----

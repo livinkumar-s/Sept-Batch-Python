@@ -161,3 +161,11 @@
 
 # Numbers --> 
 # no of iteration --> 
+
+# for i in range(3): #i=1
+#     for j in range(3): #j=0
+#         print(i,j)
+
+#outer For loop --> 3
+#inner for loop --> 3
+
