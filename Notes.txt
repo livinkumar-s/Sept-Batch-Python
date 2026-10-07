@@ -264,6 +264,7 @@ In built methods of List
 .remove(ele) #first occur
 .pop(ind)
 .pop()
+.clear()
 
 .index(ele)
 .count(ele)
@@ -294,6 +295,34 @@ name,age,isMarried=person1
 
 Set 
 ---
+>> {v1,v2.....}
+>> Ordered/Indexed.
+>> Mutable 
+>> No Duplicates
+
+in built methods 
+----------------
+.add(ele)
+.remove(ele)
+.clear()
+
+.union(set)
+.intersection(set)
+.deifference(set)
+.update()
 
 Dict
 -----
+>> {key:val,key:val....}
+>> val can be duplicated. But keys.
+>> Mutable.
+>> not indexed / Ordered
+
+In built Methods 
+-----------------
+.pop(key)
+.clear()
+
+.keys()
+.values()
+.items()

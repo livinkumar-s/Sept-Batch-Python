@@ -66,7 +66,50 @@
 # print(a)
 # print(b)
 
-str1="Hello"
-str1+="!"
+# str1="Hello"
+# str1+="!"
 
-print(str1)
+# print(str1)
+
+# s1={1,2,3,2,1,23,32,45,54}
+# s2={3,4,5,6,7,8,9,1,2}
+
+# s1.add("Hello")
+# s1.remove(3)
+# s1.clear()
+
+# print(s1.union(s2))
+# print(s1.intersection(s2))
+# print(s1.difference(s2))
+# print(s2.difference(s1))
+# s1.update()
+
+# print(s1)
+
+
+# d1={
+#     "name":"Leo",
+#     "age":23,
+#     "isMarried":True,
+#     "favMovies":[24,96,3],
+#     "isStudent":True,
+
+# }
+
+# print(d1["favMovies"][4])
+
+# d1["age"]=44
+# d1["role"]="FED"
+
+# d1.pop("age")
+# d1.clear()
+
+# print(d1.keys()) #dict_keys
+# print(d1.values()) #dict_values
+# print(d1.items()) 
+
+
+l1=[1,2,3,["four","five","six",["seven","eight","nine"]]]
+
+# print(len(l1))
+print(l1[-1][-1][-1][-1])
