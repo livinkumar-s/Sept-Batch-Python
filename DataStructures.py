@@ -109,7 +109,21 @@
 # print(d1.items()) 
 
 
-l1=[1,2,3,["four","five","six",["seven","eight","nine"]]]
+# l1=[1,2,3,["four","five","six",["seven","eight","nine"]]]
 
 # print(len(l1))
-print(l1[-1][-1][-1][-1])
+# print(l1[-1][-1][-1][-1])
+
+
+# l1=[1,2,3,0,-1,-2]
+# print(l1[4]+10)
+# print(l1[-2:]) #2,3,4,5
+# print(l1[:-3]) #0,1,2
+# print(l1[1:5]) #1,2,3,4
+# print(l1[1:6:2]) #1,3,5
+# print(l1[::-1])
+
+# print(l1[2])
+# print(l1[3:4]) 
+
+

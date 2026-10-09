@@ -46,4 +46,76 @@
 
 # print(65>>2)
 
-print(~13)
+# print(~13)
+
+# Membership 
+
+# print(2 not in [2,3,4,5])
+# print("h" in "Hello")
+
+# Identity
+
+# a=10 
+# b=10
+
+# # b=10
+
+# print(a is b)
+# # print(a == b)
+
+
+
+# a=[1,2,3]
+# b=[1,2,3]
+
+# b.append(4)
+
+# print(id(a))
+# print(id(b))
+
+# print(a)
+# print(b)
+
+# a=10
+# b=11
+# print(id(a))
+# print(id(b))
+
+# a=10
+# b=a 
+
+
+# print(id(a))
+# print(id(b))
+
+# b+=1
+
+# print(a) #10
+# print(b) #11
+
+# a=10
+# b=10
+
+# b+=2
+
+# print(id(a))
+# print(id(b))
+
+
+# a="hello"
+# b="hello"
+
+# print(id(a))
+# print(id(b))
+
+# print(a is b)
+# print(a==b)
+
+
+# a=[10]
+# b=[10]
+
+# print(id(a))
+# print(id(b))
+
+print(10 is not 10)

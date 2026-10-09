@@ -25,7 +25,7 @@ Ex: print(data)
 Input 
 ------
 >> It prompts data from user.
->> It always returs a string.
+>> It always returns a string.
 Ex: input(ExpStr)
 
 Syntax 
@@ -68,6 +68,9 @@ String ---> Sequence Of Chars. '', "".
 Concatination --> "Hello"+"Hi" --> "HelloHi"
 
 Boolean --> True/False
+
+Mutable Objects --> List, Set, Dict
+Immutable --> Int, Float, Str, Tuple, Boolean(may reuse)
 
 Type Casting 
 ---------------
@@ -139,8 +142,14 @@ Bin add
 
 
 Identity
-Membership
+----------
+is 
+is not 
 
+Membership Boolean
+-----------
+in
+not in 
 
 iterables
 -----------
@@ -161,6 +170,14 @@ Indexing and Slicing
 Negative indexing starts with -1.
 a1="Hello" var[ind] --> a1[-2]
 
+Slicing 
+-------------
+>> Extracts part of a seq. 
+obj[start:] 
+obj[:end]
+obj[start:end]
+obj[start:end:step]
+obj[::-1]
 
 Control Flow 
 ------------
@@ -326,3 +343,51 @@ In built Methods
 .keys()
 .values()
 .items()
+
+Functions 
+------------
+>> Reusable block of code.
+
+In built --> print, input, type, id...
+User Defined --> def fnName....
+
+Syntax:
+----------
+def fnName():
+    block of code
+
+Calling or invoking --> fnName()
+
+Parameters and Arguments 
+--------------------------
+P --> Variables created in function defenition without values.
+A --> Values passed to those Parameters.
+
+Positional Argument 
+-----------------------
+>> Values are assigned to parameters based on their positions
+
+Keyword Arguments
+-----------------
+>>Values are passed using parameter name
+
+Default Arguments 
+------------------
+>> parameter is given a default value.
+>> python uses default value, only when argument is not passed
+
+Variable length positional Arguments
+---------------------------------------
+*para
+
+Variable length keyword Arguments
+---------------------------------------
+**para
+
+return keyword 
+-----------------
+>> it stops a function.
+>> returns a data to the caller.
+
+Scopes 
+-------
