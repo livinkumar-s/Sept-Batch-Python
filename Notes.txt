@@ -391,3 +391,13 @@ return keyword
 
 Scopes 
 -------
+>> It is the region of a program where a variable can be accessed.
+
+Local Scope ---> A variable created inside a function is local scoped variable. it can be accessible only inside that function.
+
+Global Scope ---> Variable created outside of any function. it belongs to its module. accessible anywhere.(global)
+
+Enclosing Scope ---> appears when you create 1 func inside another.(nonlocal)
+parent(a=10) --> child() --> grandchild()
+
+Built In Scope --> pre defined names (print, input, type)

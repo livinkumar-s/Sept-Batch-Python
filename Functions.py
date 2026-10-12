@@ -54,3 +54,58 @@
 # a=input("Enter Name: ")
 
 # print(4,5,6,7)
+
+
+# Scopes 
+
+# a=10
+
+# def showNum():
+#     # a=10
+#     print(a)
+
+# showNum()
+# print(a)
+
+# a=10
+
+# def showNum():
+#     a=20
+#     print(a) #10, 20
+
+# def inc():
+#     global a
+#     # a+=1
+#     # print(a)
+#     a+=1 # global scopped var
+
+# # showNum()
+# inc()
+# inc()
+# inc()
+# print(a) 
+
+# def parent():
+#     a=10
+#     def child():
+#         def grandchild():
+#             nonlocal a
+#             a-=1 #local scoped var
+#         grandchild()
+#         grandchild()
+#         grandchild()
+#     child()
+#     print(a) #7
+
+
+# parent()
+
+
+# def greet():
+#     print("Hello")
+
+# b=12
+
+
+print()
+input()
