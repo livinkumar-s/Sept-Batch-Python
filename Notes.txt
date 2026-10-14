@@ -434,4 +434,40 @@ Global Scope ---> Variable created outside of any function. it belongs to its mo
 Enclosing Scope ---> appears when you create 1 func inside another.(nonlocal)
 parent(a=10) --> child() --> grandchild()
 
-Built In Scope --> pre defined names (print, input, type)
+Built In Scope --> pre defined names (print, input, type).
+
+File Handling 
+---------------
+>> It means creating, reading, opening, writting files using python.
+Ex: txt, xml, html,csv, binary files.
+
+To open a file --> open(path,mode)
+
+In built methods of file object 
+---------------------------------
+.close()
+.read(size) --> read the content from a file
+.readline()
+.readlines()
+.readable()
+.tell()
+.seek(cookie)
+
+.writable()
+.write(content)
+
+Modes 
+---------
+r --> read 
+w --> write (overwrite) (creates if doesn't exist)
+a --> append (add content)
+x --> create (creates new file)
+r+ --> read, write (no file creation)
+w+ --> read, write, new file (overwrite)
+a+ --> read, write, new file (no overwrite)
+
+with statement 
+---------------
+with open() as varName:
+    block of code
+

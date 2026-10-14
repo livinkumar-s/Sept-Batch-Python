@@ -45,6 +45,6 @@
 # else:
 #     print("No Pal")
 
-l1=[1,2,3,4]
-l1.reverse()
-l1[::-1]
+# l1=[1,2,3,4]
+# l1.reverse()
+# print(l1[::-1])
