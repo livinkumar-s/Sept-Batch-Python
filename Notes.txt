@@ -471,3 +471,29 @@ with statement
 with open() as varName:
     block of code
 
+Error Handling 
+----------------
+>> It is a problem that stops the code from running properly.
+
+Syntax Errors
+----------------
+>> it occurs when you make error with syntax.
+Ex: SyntaxError, IndentationError.
+
+Runtime Errors (Exception)
+----------------
+>> It occurs during the runtime.
+Ex: TypeError,ValueError,ZeroDivisionError...
+
+Exception Handling
+-------------------
+try:
+    block of code
+except exceptionName:
+    handling block
+except exceptionName:
+    handling block
+.
+.
+finally:
+    block of code
