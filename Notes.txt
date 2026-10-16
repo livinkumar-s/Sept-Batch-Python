@@ -549,28 +549,8 @@ Self
 >> Encapsulation --> hiding data in an object. _ (protected) __ (private)
 >> Abstraction --> Hiding the complex implementation
 
-ABC class --> cant be instanciated (the design)
+PIP
+----
+>> pip install packageName
 
-
-ABC --> PAYMENTDESIGN(pay())
-
-payment Gateway ----> class PayPal(pay), class RazorPay(payment), class CashFree(makePay)
-
-
-
-
-
-
-
-
-
-
-pay1=PayPal()
-pay2=RazorPay()
-pay3=CashFree()
-
-
-def makePaynment(obj):
-    obj.pay()
-
-makePaynment(pay2)
+>> mysql-connector-python 
