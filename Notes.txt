@@ -543,3 +543,34 @@ Static Method --> when you dont wnat to access any attribute. (class, instance)
 Self 
 --------
 >> this self keyword refers to the current object you working with.
+
+>> Inheritance Class1(2, 2) -->  Class2(Class1+2)(6 props)
+>> Poly --> one in many form.
+>> Encapsulation --> hiding data in an object. _ (protected) __ (private)
+>> Abstraction --> Hiding the complex implementation
+
+ABC class --> cant be instanciated (the design)
+
+
+ABC --> PAYMENTDESIGN(pay())
+
+payment Gateway ----> class PayPal(pay), class RazorPay(payment), class CashFree(makePay)
+
+
+
+
+
+
+
+
+
+
+pay1=PayPal()
+pay2=RazorPay()
+pay3=CashFree()
+
+
+def makePaynment(obj):
+    obj.pay()
+
+makePaynment(pay2)

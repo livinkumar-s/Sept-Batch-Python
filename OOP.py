@@ -1,24 +1,24 @@
 # # Bottle class
-class Bottle:
+# class Bottle:
     #Attribute Defenition
-    brand="Aqua" #Beta
-    def __init__(self,c,h,r): #self=b2,
-        self.color=c
-        self.height=h
-        self.radius=r
-        print("Hello Guys")
+    # brand="Aqua" #Beta
+    # def __init__(self,c,h,r): #self=b2,
+    #     self.color=c
+    #     self.height=h
+    #     self.radius=r
+    #     print("Hello Guys")
 
-    def printVolume(self,a,b): #self=b1
-        print((22/7)*(self.radius)*(self.radius)*(self.height))
-        print(a+b)
+    # def printVolume(self,a,b): #self=b1
+    #     print((22/7)*(self.radius)*(self.radius)*(self.height))
+    #     print(a+b)
 
-    @classmethod
-    def printBrandName(cls): 
-        print(cls.brand)
+    # @classmethod
+    # def printBrandName(cls): 
+    #     print(cls.brand)
 
-    @staticmethod
-    def greet():
-        print("Good Morning")
+    # @staticmethod
+    # def greet():
+    #     print("Good Morning")
 
 # Bottle.printVolume()
 
@@ -90,3 +90,40 @@ class Bottle:
 # print(type(b1)) #<class "__main__.Bottle">
 
 # print("Hello"-"World")
+
+
+
+# def add(a,b):
+#     print(a+b)
+
+# def add(a,b,c=0):
+#     print(a+b+c)
+
+# add(2,3)
+# add(12,3,3)
+
+# class User:
+#     def __init__(self,u,p,m):
+#         self.username=u #normal
+#         self.__password=p #private
+#         self._mail=m #protected
+
+#     def checkPass(self,password):
+#         return self.__password==password
+
+    
+
+# u1=User("Leo","12345","Leo123@gmail.com")
+
+# print(u1.username)
+# print(u1._mail) #accessible
+# print(u1.__password) #not accessible
+
+# passw=input("Password: ")
+
+# if passw==u1.__password:
+# if u1.checkPass(passw):
+#     print("User Auth Done")
+# else:
+#     print("Wrong Credentials").
+
