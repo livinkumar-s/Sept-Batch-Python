@@ -497,3 +497,49 @@ except exceptionName:
 .
 finally:
     block of code
+
+OOP 
+------
+>> Object Oriented Programming 
+>> It is a programming pattern that organizes the code using class, object.
+
+object(Bottle) --> real time entity.
+information(color, capacity, brand), functionalities(open, close)
+
+Blue Print(col, cpacity....) --> Bottle1, Bottle2
+
+python object --> Attributes, Methods (properties)
+class --> Obj1,Obj2...
+
+class 
+------
+>> Blueprint for creating an object
+class ClsName:
+    class defenition
+    def __init__(self):
+        define attributes
+
+Objects 
+----------
+Instance of a class.
+ClsName()
+
+Attributes 
+------------
+>> Variables associated with an object. it stores information about it.
+
+Instance Attributes ---> It belogs to individual Object.(accessed from instance)
+Class Attributes ---> Belong to the class and commonly shared by its objects.(accesses from both)
+
+Methods 
+----------
+>> Functions defined inside a class that represent its behavior.
+
+Instance Method --> it is accessible only from instances. (self). when you want to access instance attr
+Class Method --> it accessible from both. (cls). when you want to access class attr.
+Static Method --> when you dont wnat to access any attribute. (class, instance)
+
+
+Self 
+--------
+>> this self keyword refers to the current object you working with.
